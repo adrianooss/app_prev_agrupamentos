@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-encoder = joblib.load('modelos/encoder.pkl')
-scaler = joblib.load('modelos/scaler.pkl')
-kmeans = joblib.load('modelos/kmeans.pkl')
+encoder = joblib.load('encoder.pkl')
+scaler = joblib.load('scaler.pkl')
+kmeans = joblib.load('kmeans.pkl')
 
 st.title('Grupos de interesse para marketing')
 st.write("""
