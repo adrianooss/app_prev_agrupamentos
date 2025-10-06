@@ -31,7 +31,7 @@ encoder.pkl, scaler.pkl, kmeans.pkl: Modelos treinados para pré-processamento e
 requirements.txt: Dependências do projeto.
 .devcontainer/: Configuração para desenvolvimento em containers.
 
-##Observações
+## Observações
 Certifique-se de que os arquivos .pkl estejam presentes na raiz do projeto para o correto funcionamento.
 O arquivo CSV de entrada deve conter uma coluna sexo e demais colunas compatíveis com o modelo.
 Desenvolvido para fins de demonstração de segmentação de marketing com Machine Learning.
